@@ -1,2 +1,2 @@
-# nerdneck
-scoreboard for olympics
+# Nerdneck Tournament Interface
+Tournament pages for the KZ olympics.

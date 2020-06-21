@@ -5,5 +5,9 @@
     <RootNamespace>tournament_backend</RootNamespace>
   </PropertyGroup>
 
+  <ItemGroup>
+    <PackageReference Include="Swashbuckle.AspNetCore" Version="5.5.0" />
+  </ItemGroup>
+
 
 </Project>

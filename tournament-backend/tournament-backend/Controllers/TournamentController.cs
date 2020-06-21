@@ -1,8 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
-using Microsoft.AspNetCore.Mvc;
+﻿using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
 
 namespace tournament_backend.Controllers
@@ -18,6 +14,10 @@ namespace tournament_backend.Controllers
             _logger = logger;
         }
 
+        /// <summary>
+        /// Returns the text "Nerdneck is awesome!"
+        /// </summary>
+        /// <returns></returns>
         [HttpGet]
         public string Get()
         {
